@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
     <div id="kcontainer">
       <div class="keyboard_row">
         <div class="key">
@@ -174,3 +190,14 @@
         </div>
       </div>
     </div>
+
+<div id="tcontainer">
+  <div id="target" style="color: white"> <p>hola</p> </div> 
+</div>
+
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+</body>
+</html>

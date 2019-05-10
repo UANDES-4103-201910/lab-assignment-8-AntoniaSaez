@@ -12,6 +12,14 @@ html {
 	justify-content: flex-start;
 	align-items: center;
 }
+#tcontainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	background-color: pink;
+	align-items: center;
+}
 
 .keyboard_row {
 	display: flex;
