@@ -14,5 +14,12 @@ $(document).ready(function(){
     $("div.key").click(function(){
         key += $(this).text()
         $("#tcontainer").text(key);
+
     });
+});
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#tcontainer").toggle();
+  });
 });

@@ -5,13 +5,11 @@
 <script type="text/javascript" src="keyboard.js"></script>
 <link rel="stylesheet" type="text/css" href="keyboard.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 <script>
 $(document).ready(function(){
-  $("#hide").click(function(){
-    $("p").hide();
-  });
-  $("#show").click(function(){
-    $("p").show();
+  $("button").click(function(){
+    $("p").toggle();
   });
 });
 </script>
@@ -195,12 +193,11 @@ $(document).ready(function(){
     </div>
 
 <div id="tcontainer">
-  <div id="target" style="color: white"> <p> </p> </div>
+  <div id="target" style="color: white">  <p> </p> </div>
 </div>
 
 
-<button id="hide">Hide</button>
-<button id="show">Show</button>
+<button>Toggle</button>
 
 </body>
 </html>
